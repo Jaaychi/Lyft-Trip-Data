@@ -78,6 +78,11 @@ FROM cars
 WHERE status = 'active';
 
 -- Write a query that finds the two cars that have the highest trips_completed.
-
+SELECT
+  model,
+  trips_completed
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;
 
 
