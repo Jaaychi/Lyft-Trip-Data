@@ -34,6 +34,12 @@ LEFT JOIN riders ON trips.rider_id = riders.id;
 
 -- Find the columns to join on and combine the trips and cars table using an INNER JOIN.
 SELECT
+  model,
+  trips_completed
+FROM cars
+ORDER BY trips_completed DESC
+LIMIT 2;
+SELECT
   *
 FROM trips
 JOIN cars ON trips.car_id = cars.id;
