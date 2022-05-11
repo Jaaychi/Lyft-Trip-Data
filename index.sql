@@ -9,7 +9,6 @@ SELECT * FROM riders;
 SELECT * FROM cars;
 
 
-
 -- What’s the primary key of trips?
 
 -- What’s the primary key of riders?
